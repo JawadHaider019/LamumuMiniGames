@@ -1,11 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export', // 👈 enables static export
-  images: {
-    unoptimized: true,
-  },
-  basePath: '/lamumu-games', // 👈 replace with your repo name
-  assetPrefix: '/lamumu-games/',
+  output: "export", // for static export
+  basePath: "/LamumuMiniGames", // your repo name
+  assetPrefix: "/LamumuMiniGames/",
 };
 
 export default nextConfig;
